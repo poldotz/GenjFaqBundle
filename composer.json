@@ -20,17 +20,16 @@
             "email": "susan.lau@genj.nl"
         }
     ],
-
     "require": {
-        "symfony/symfony": ">=3.0",
+        "symfony/symfony": "2.6.*",
         "sensio/framework-extra-bundle": "~3.0",
-        "doctrine/orm": ">=2.5",
-        "doctrine/doctrine-bundle": "~1.6",
+        "doctrine/orm": "~2.2,>=2.2.3",
+        "doctrine/doctrine-bundle": "~1.2",
         "gedmo/doctrine-extensions": ">=2.4.10"
     },
 
     "require-dev": {
-        "sensio/generator-bundle": "^3.0",
+        "sensio/generator-bundle": "~2.3",
         "symfony/phpunit-bridge": "^2.7"
     },
 
